@@ -21,6 +21,7 @@ class EventHandler {
     constructor() {
         this.handleEnterLog();
         this.handleNewLog();
+        this.saveNewLog();
     }
 
     handleEnterLog() {
@@ -61,6 +62,10 @@ class EventHandler {
         document.getElementById('result').style.display = 'none';
         document.getElementById('log').style.display = 'block';
     });
+    }
+
+    saveNewLog() {
+
     }
 
     performAjax(requestNum, sendToNode, callback) {

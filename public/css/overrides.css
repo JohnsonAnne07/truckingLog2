@@ -38,6 +38,9 @@
   font-size: 500%;
   font-family: Sakkal Majalla; }
 
+.enterLog {
+  background-color: green; }
+
 #log {
   text-align: center;
   margin-top: 5%; }
@@ -61,5 +64,3 @@ body {
 textarea {
   width: 100%;
   height: auto; }
-
-/*# sourceMappingURL=overrides.css.map */
