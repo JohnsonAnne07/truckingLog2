@@ -1,6 +1,6 @@
 {
   "name": "trucklog",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "description": "For logging trip data",
   "main": "bin/server",
